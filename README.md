@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
@@ -155,7 +155,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
@@ -179,7 +179,7 @@ jobs:
       contents: read
       deployments: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
@@ -204,7 +204,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Deploy app
         uses: cloudflare/wrangler-action@v3
         with:
@@ -230,7 +230,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Deploy app
         uses: cloudflare/wrangler-action@v3
         with:
@@ -250,7 +250,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Upload Worker Version
         uses: cloudflare/wrangler-action@v3
         with:
@@ -376,7 +376,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Deploy app
         uses: cloudflare/wrangler-action@v3
         with:
